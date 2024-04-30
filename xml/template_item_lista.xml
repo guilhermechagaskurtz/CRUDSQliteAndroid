@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[ID DO CARRO]"/>
+
+    <TextView
+        android:id="@+id/nomeCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="[NOME DO CARRO]"/>
+
+    <TextView
+        android:id="@+id/placaCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[PLACA DO CARRO]"/>
+
+    <TextView
+        android:id="@+id/anoCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[ANO DO CARRO]"/>
+
+</LinearLayout>
